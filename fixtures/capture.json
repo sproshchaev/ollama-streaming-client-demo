@@ -1,0 +1,34 @@
+{
+  "ollama_version": "0.32.15",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "captures": {
+    "stop": {
+      "request": {
+        "model": "llama3.1:8b",
+        "prompt": "Reply with one word: orange.",
+        "stream": true,
+        "options": {
+          "num_ctx": 512,
+          "num_predict": 64,
+          "temperature": 0,
+          "num_gpu": 0
+        }
+      },
+      "body_sha256": "9b3cb84025ca48f4eebb674172c5a80f11015c5b850009bc403d6400f04e7b19"
+    },
+    "length": {
+      "request": {
+        "model": "llama3.1:8b",
+        "prompt": "Count from one to ten with a word for each number.",
+        "stream": true,
+        "options": {
+          "num_ctx": 512,
+          "num_predict": 1,
+          "temperature": 0,
+          "num_gpu": 0
+        }
+      },
+      "body_sha256": "91fc60e940bc2d057daade9097d7de2f772b873e7259e9b2c7633c940df0da83"
+    }
+  }
+}

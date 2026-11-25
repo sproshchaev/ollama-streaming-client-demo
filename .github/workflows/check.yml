@@ -11,4 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Verify stream handling
-        run: ./run.sh
+        run: |
+          python3 --version
+          ./run.sh
