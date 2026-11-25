@@ -1,0 +1,14 @@
+name: Check
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Verify stream handling
+        run: ./run.sh

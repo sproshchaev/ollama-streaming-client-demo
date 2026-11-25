@@ -1,0 +1,9 @@
+case | EOF client | client with completion checks
+recorded stop | accepted | accepted
+EOF before done | accepted | rejected (missing completion record)
+error after HTTP 200 | accepted | rejected (upstream error)
+recorded length | accepted | rejected (output limit)
+HTTP disconnect after done | accepted | rejected (HTTP framing)
+short Content-Length body | accepted | rejected (incomplete HTTP body)
+split UTF-8; multiple lines in one chunk | accepted | accepted
+replayed request | 2 writes | 1 write

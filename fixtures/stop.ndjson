@@ -1,0 +1,4 @@
+{"model":"llama3.1:8b","created_at":"2026-11-25T12:23:24.912147Z","response":"Ju","done":false}
+{"model":"llama3.1:8b","created_at":"2026-11-25T12:23:24.968755Z","response":"icy","done":false}
+{"model":"llama3.1:8b","created_at":"2026-11-25T12:23:25.019092Z","response":".","done":false}
+{"model":"llama3.1:8b","created_at":"2026-11-25T12:23:25.074768Z","response":"","done":true,"done_reason":"stop","context":[128006,882,128007,271,21509,449,832,3492,25,19087,13,128009,128006,78191,128007,271,63704,2912,13],"total_duration":11490537625,"load_duration":10890800959,"prompt_eval_count":17,"prompt_eval_duration":428552000,"eval_count":4,"eval_duration":164009000}
